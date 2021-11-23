@@ -1,10 +1,16 @@
 /* Basislayout */
+*{
+  border:solid 2px black;
+  overflow: auto;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
     padding: 0; 
+    {background-image: url("afbeeldingen/loremipsum.jpg");background-size:100%}
     background-color:white;
-
     color:black;
     font: Verdana, Arial, Sans-Serif;
 }
