@@ -1,19 +1,12 @@
 /* Basislayout */
 *{
-  border:solid 2px black;
+  border:dotted 1px black;
   overflow: auto;
   margin: 0px;
   box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    padding: 0; 
-    {background-image: url("afbeeldingen/loremipsum.jpg");background-size:100%}
-    background-color:white;
-    color:black;
-    font: Verdana, Arial, Sans-Serif;
-}
+html, body 
 
 
 main {
@@ -39,6 +32,15 @@ footer {
     padding-bottom: 10px;
 }
 
+ .kolomLinks {
+   float: left;
+   width: 200px;
+ }
+
+ .kolomRechts {
+   float: left;
+   width: calc( 100% - 200px );
+ }
 
 /* specifieke stijlen */ 
 
@@ -47,10 +49,6 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
-img.zweefRechts {
-    float: right;
-    margin-left: 15px;
-}
 
 .smalltext {
     font-size: 0.7em;
