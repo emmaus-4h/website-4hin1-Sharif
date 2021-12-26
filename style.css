@@ -1,6 +1,6 @@
 /* Basislayout */
 *{
-  border:dotted 1px black;
+  border:dotted 0px black;
   overflow: auto;
   margin: 0px;
   box-sizing: border-box;
@@ -53,6 +53,13 @@ footer {
 
 /* specifieke stijlen */ 
 
+#font {
+  font-family: "Lucida Console", Monospace;
+}
+
+#font2 {
+  font-family: "OCR A Std", Monospace;
+}
 img.zweefLinks {
     float: left; 
     margin-right: 15px;
